@@ -125,7 +125,7 @@ namespace ConsoleApp11
 
 ## 3. 정리
 ### 1. C#과 curl 비교
-- curl : 커맨드창에 -d "task=데이터" 형태로 전달
+- curl : 커맨드창에 -d "task=데이터" -X POST형태로 전달
 - C# : 전송 + 수신 두 단계
 ```C#
 string url = "http://localhost:5000/todos"; //URL
