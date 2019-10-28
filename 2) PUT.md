@@ -50,6 +50,8 @@ https://javaplant.tistory.com/18
 
 https://m.blog.naver.com/azure0777/220824614635
 
+https://www.lesstif.com/display/WS/curl
+
 ---
 
 ### 2. <string:todo_id>, request.form
