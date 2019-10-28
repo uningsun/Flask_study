@@ -1,7 +1,7 @@
 # 2. Resourceful Routing Example - PUT, GET 
 https://flask-restful.readthedocs.io/en/latest/quickstart.html
 
-## 1. .py파일 생성 후 실행
+## 1. api.py파일 생성 후 실행
 ```Python
 from flask import Flask, request
 from flask_restful import Resource, Api
@@ -23,6 +23,9 @@ api.add_resource(TodoSimple, '/<string:todo_id>')
 
 if __name__ == '__main__':
     app.run(debug=True)
+```
+```cmd
+python api.py
 ```
 
 ## 2. debug
