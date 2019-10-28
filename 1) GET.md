@@ -33,7 +33,7 @@ class Plus(Resource):
 api.add_resource(Plus, '/plus')
 
 if __name__ == '__main__':
-        app.run(debug=True)
+    app.run(debug=True)
 ```
 
 ## 소스코드 실행
