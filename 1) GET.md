@@ -44,7 +44,7 @@ python api.py
 ## debug
 - 새로운 커맨드 창에서 실행
 ```cmd
-curl http://localhost:5000/plus -d "x=3&y=10" -X GET
+curl -d "x=3&y=10" http://localhost:5000/plus  -X GET
 ```
 - 결과
 ```cmd
@@ -53,8 +53,11 @@ curl http://localhost:5000/plus -d "x=3&y=10" -X GET
 }
 ```
 
+(-d 옵션을 추가하면 -X POST는 제외 가능)
+
 ## 정리
 
+### 1. reqparse
   
 1. parser = reqparse.RequestParser()로 틀을 만든 후
 ```Python
@@ -80,3 +83,12 @@ cf. args 저장된 형태
     "y": 10
 }
 ```
+
+### 2. curl
+- curl : command line용 data transfer tool, HTTP/HTTPS/FTP/LDAP/SCP 등 주요한 프로토콜 지원
+https://www.lesstif.com/pages/viewpage.action?pageId=14745703
+
+https://blog.naver.com/wideeyed/221350638501
+- d, --data : < data > send specified data in POST request.
+- h, --header : < HEADER > Headers to supply with request.
+- X, --request : The request method to use. ex)GET, POST
