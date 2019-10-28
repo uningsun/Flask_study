@@ -86,9 +86,11 @@ cf. args 저장된 형태
 
 ### 2. curl
 - curl : command line용 data transfer tool, HTTP/HTTPS/FTP/LDAP/SCP 등 주요한 프로토콜 지원
-https://www.lesstif.com/pages/viewpage.action?pageId=14745703
 
-https://blog.naver.com/wideeyed/221350638501
 - d, --data : < data > send specified data in POST request.
 - h, --header : < HEADER > Headers to supply with request.
 - X, --request : The request method to use. ex)GET, POST
+
+https://www.lesstif.com/pages/viewpage.action?pageId=14745703
+
+https://blog.naver.com/wideeyed/221350638501
