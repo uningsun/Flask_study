@@ -49,6 +49,6 @@ https://m.blog.naver.com/azure0777/220824614635
 
 ---
 
-### 2.
+### 2. <string:todo_id>, request.form
 1. <string:todo_id> - string 형태로 들어온 임의의 string 주소(todo_id)
 2. request.form['data'] - 'data= '형태로 들어온 data
