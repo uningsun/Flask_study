@@ -217,3 +217,18 @@ $ curl http://localhost:5000/todos
     }
 }
 ```
+
+---
+
+## 3. 정리
+
+### 1. HTTP 상태 코드
+- 200 OK : HTTP 요청에 대한 성공 
+- 201 Created : 새로운 자원에 대한 생성, POST 관련
+- 204 No content : 요청 성공했으나 리턴되는 콘텐츠가 없음, DELETE 관련
+- 400 Bad Request : 잘못된 요청으로 인한 실패
+- 404 Not Found : 요청한 자원을 찾을 수 없음. 존재하지 않는 페이지 접근 시
+
+https://mygumi.tistory.com/230
+
+---
