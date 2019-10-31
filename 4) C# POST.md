@@ -123,6 +123,24 @@ namespace ConsoleApp11
 }
 ```
 
+### 결과 (in args, http://localhost:5000/todos)
+```cmd
+{
+    "todo4": {
+        "task": "test"
+    },
+    "todo1": {
+        "task": "build an API"
+    },
+    "todo2": {
+        "task": "?????"
+    },
+    "todo3": {
+        "task": "profit!"
+    }
+}
+```
+
 ## 3. 정리
 ### 1. C#과 curl 비교
 - curl : 커맨드창에 -d "task=데이터" -X POST형태로 전달
